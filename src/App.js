@@ -1,5 +1,5 @@
 import React, { useState, createContext, useMemo } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./app.scss";
 import UI from "./UI";
 import Product from "./Product";
@@ -62,7 +62,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter basename='/'>
       <Switch>
         <ProductContext.Provider
           value={{
@@ -88,7 +88,7 @@ function App() {
           <Route exact path="/product" component={Product} />
         </ProductContext.Provider>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
