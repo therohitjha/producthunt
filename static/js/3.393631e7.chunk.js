@@ -1,0 +1,2 @@
+(this.webpackJsonptesting=this.webpackJsonptesting||[]).push([[3],{34:function(t,e,n){"use strict";n.r(e);var r=n(0),a=n.n(r),u=n(17),i=n(10);e.default=function(){var t=Object(r.useContext)(u.a),e=t.productList,n=t.setProduct;return a.a.createElement(a.a.Fragment,null,e?e.map((function(t){return a.a.createElement(i.b,{to:"/product",key:t.thumbnail.id},a.a.createElement("img",{src:t.thumbnail.image_url,alt:"",onClick:function(){return n([t])}}))})):"Something Went Wrong...")}}}]);
+//# sourceMappingURL=3.393631e7.chunk.js.map
