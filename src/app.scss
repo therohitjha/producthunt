@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  margin: 5px;
+  width: 250px;
+}
+
+.height {
+  height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  background-color: rgb(0, 204, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 1rem;
+  font-size: 20px;
+  font-family: cursive;
+  width: 200px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 7rem;
+}
+
+.loading {
+  color: red;
+  text-align: center;
+}
+
+.commentsHeading {
+  color: rgb(45, 164, 211);
+}
+.comments {
+  margin: 0.5rem;
+  color: red;
+}
+
+.likeBtn {
+  color: white;
+  background-color: skyblue;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin: 0.4rem;
+}
+
+.likeBtn:hover {
+  background-color: rgb(88, 189, 230);
+}
+
+.like {
+  color: #1a9c36;
+}
+
+.filterBtn {
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter h3 {
+  margin: 0.5rem;
+  color: red;
+}
+
+.filter input {
+  padding: 0.3rem;
+  margin: 0.3rem;
+  width: 50px;
+}
+
+.submitBtn {
+  width: 100px;
+  height: 28px;
+  padding: 0.3rem;
+  background: skyblue;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 0.3rem;
+}
+
+.submitBtn:hover {
+  background: rgb(76, 158, 190);
+  cursor: pointer;
+}
+.reset {
+  width: 100px;
+  height: 28px;
+  padding: 0.3rem;
+  background: skyblue;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.reset:hover {
+  background: rgb(76, 158, 190);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  img {
+    width: 150px;
+  }
+}
